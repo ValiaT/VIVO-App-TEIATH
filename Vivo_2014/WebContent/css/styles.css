@@ -1,0 +1,26 @@
+body {
+    background: url("../img/dbg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #646464;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.navbar-brand > img {
+    width: 38px;
+}
+.jumbotron{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 660px;
+}
+.flex-video {
+position: relative;
+padding-top: 25px;
+padding-bottom: 67.5%;
+height: 0;
+margin-bottom: 16px;
+overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }

@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-07-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="dept" title="dept" type="string"></attribute>
+      <attribute id="keyword" title="keyword" type="string"></attribute>
+      <attribute id="papers" title="papers" type="long"></attribute>
+      <attribute id="citation" title="citation" type="string"></attribute>
+      <attribute id="year" title="year" type="integer"></attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="Triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="title_id" title="title_id" type="integer"></attribute>
+      <attribute id="cit" title="cit" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="35" label="Adams, Sean Patrick">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1445.2233" y="667.8482" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="41" label="Al-Assi, M Tarek">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2759.4546" y="3990.768" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="82" label="Alleman, Arthur R">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4678.1157" y="2512.852" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="45" label="Andrews, E">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2247.135" y="-2645.1626" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="76" label="Angrish, Parul">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1256.3564" y="3289.2783" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="92" label="Aslanidi, Georgiy V">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="3179.3914" y="-376.05737" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="44" label="Batts, Joel">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2083.3435" y="1958.721" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="4" label="Beecham, E Jeffrey">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-855.0554" y="-4060.5115" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="61" label="Bento, Fatima M">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2468.206" y="-4936.165" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="37" label="Berden, Giel">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4725.6475" y="-2834.067" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="31" label="Biggerstaff, M I">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1118.4911" y="3680.427" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="79" label="Boucias, Drion">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.05634847900925644"></attvalue>
+        </attvalues>
+        <viz:size value="35.217598"></viz:size>
+        <viz:position x="3354.7358" y="-1359.3019" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="80" label="Boucias, Drion G">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.05634847900925644"></attvalue>
+        </attvalues>
+        <viz:size value="35.217598"></viz:size>
+        <viz:position x="1510.3989" y="544.5724" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="73" label="Brass, Clifford A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="687.38074" y="3205.6216" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="8" label="Burne, Robert A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2862.469" y="3369.447" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="11" label="Buta, Natalia">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4431.896" y="1185.1371" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="77" label="Calhoun, Kyle A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="126.54365" y="2326.3503" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="19" label="Castellano, Ronald K">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1298.3558" y="-4866.7607" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="12" label="Celso, Brian G">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2352.425" y="-3796.8616" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="9" label="Chen, C Y">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2531.6877" y="-3972.6602" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="10" label="Cheng, Irene">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1587.8784" y="4020.3628" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="28" label="CHENG,PENG">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3355.6006" y="-4321.9893" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="69" label="Cross, III, DeWitte T">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1036.2759" y="-4674.661" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="23" label="Curtis, Jennifer Sinclair">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="350.28903" y="-2686.004" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="3" label="Dean,Robert G">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="2"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="501.9841" y="2861.9148" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="50" label="DIppolito, Mariagrazia">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4047.2188" y="3245.5674" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="39" label="Dotter, Aaron">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-174.97133" y="-2875.0847" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="53" label="Eckman, CB">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2784.5146" y="1136.5647" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="70" label="Elbert, Thomas">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1761.4325" y="-2690.402" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="21" label="Engelke, P">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2371.5962" y="-2333.576" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="86" label="Farrell, Terence M">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1853.2563" y="-4142.449" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="25" label="Ferreira, A J">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2490.3" y="1027.3354" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="15" label="Frye, Reginald F">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1717.429" y="3708.759" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="72" label="Gilger, Brian C">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3932.2922" y="3232.8027" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="18" label="Gilliland, Ronald L">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="2"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2010.958" y="-1129.1959" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="54" label="Gingu, C">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-596.4775" y="-1447.468" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="74" label="Greene, Samantha">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4362.1836" y="861.0094" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="94" label="Gregory, Frederick">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="873.14795" y="1194.1521" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="56" label="Guan, Yongpei">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4713.0366" y="-3906.1836" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="34" label="Guo, Charies C">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2586.9746" y="-715.52435" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="43" label="Herrera, Fabiany A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="3615.3672" y="2299.895" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="36" label="Hu, Ying">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4737.981" y="-4629.9653" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="88" label="Ingram, Lonnie O">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-387.91702" y="3146.4482" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="7" label="Jenq, Robert R">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4072.0742" y="-3558.3965" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="16" label="Jeon, Wonju">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2159.6262" y="-2585.6726" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="96" label="Johnson, Richard J">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3474.888" y="-962.8099" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="42" label="Jones, Jeffrey B">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3934.114" y="2056.127" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="58" label="Jones, Theresa A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="64.70352" y="4518.971" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="48" label="Jordan, Gregory J">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-999.5353" y="4444.2446" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="13" label="Kozlowski, Szymon">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-132.68997" y="1811.3743" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="63" label="Lam, Polo C H">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4225.967" y="-205.95963" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="1" label="Lau, Johnson Y N">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2562.5195" y="-3685.8945" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="17" label="Li , R C">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1232.1327" y="503.6427" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="89" label="Lin, Chen">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3186.5303" y="-3143.236" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="32" label="Liu, Zhao">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="143.85527" y="-5000.0" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="97" label="Martinez,Nicholas B">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4900.254" y="2581.8284" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="51" label="Mocco, J Duffy">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2124.272" y="-4331.014" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="67" label="Mokdad, A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1398.2552" y="-2529.5781" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="64" label="Moldawer, L M">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="Triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="66.435196"></viz:size>
+        <viz:position x="3778.9377" y="1067.0134" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="65" label="Moldawer, Lyle L Phd">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="Triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="66.435196"></viz:size>
+        <viz:position x="951.23944" y="1995.6934" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="66" label="Moldawer, Lyle Linc">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="Triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="66.435196"></viz:size>
+        <viz:position x="-3322.6873" y="1880.0133" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="93" label="Morelli, Giuseppe">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1838.021" y="3306.9346" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="60" label="Naugle, Kelly Marie">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4529.8896" y="-2399.0964" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="83" label="Navarrete, Hugo">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="1810.2961" y="-71.84497" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="55" label="Nho, Jun-Seok">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-986.62335" y="-4403.8027" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="62" label="Nichols, Romaine C Jr">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="952.1563" y="3780.0544" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="78" label="Ortiz, Melissa">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4097.4863" y="1650.3763" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="46" label="Pallanti, Stefano">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="3296.058" y="-4232.287" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="47" label="Patel, Samik">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-844.35516" y="4369.736" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="49" label="Pileggi, Roberta">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-136.6335" y="2919.9988" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="81" label="Rani, Asha">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1276.4408" y="1049.7877" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="2" label="Redden, David">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3427.267" y="1952.5159" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="29" label="Reynolds, Brent A">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="2"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.05634847900925644"></attvalue>
+        </attvalues>
+        <viz:size value="35.217598"></viz:size>
+        <viz:position x="-2658.8306" y="-1557.1835" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="85" label="Rotondo, Ronny Leone">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1182.926" y="4339.309" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="59" label="Rozanowska, Malgorzata">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2067.32" y="3705.201" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="91" label="Rudawski, Nicholas G">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-133.63591" y="1744.2336" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="87" label="Saraiya, Mona">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1171.2157" y="889.7571" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="33" label="Sarosi, George A Jr">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="2889.4958" y="3021.1177" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="26" label="Savell, J W">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="912.15" y="-2004.23" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="95" label="Segal, Corin">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4402.104" y="4118.9844" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="68" label="Silver, Jerry">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.05634847900925644"></attvalue>
+        </attvalues>
+        <viz:size value="35.217598"></viz:size>
+        <viz:position x="-1856.9487" y="-3445.099" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="52" label="Smith, Ryan S">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-600.1877" y="4228.7524" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="22" label="Smuder, Ashley Joslin">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1770.66" y="-3524.9993" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="84" label="Subramanian, Mani">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-4153.8037" y="1153.0986" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="30" label="Tan, Weihong">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3833.784" y="477.09943" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="90" label="Wallace, Bryan P">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1616.7772" y="-3817.1628" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="6" label="Wang, M">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2913.6008" y="1268.3142" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="20" label="Wang, Qi">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="395.6433" y="688.62494" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="75" label="Weiler, Robert Matthew">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-162.64738" y="-4275.241" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="38" label="White, Katherine K">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1239.0146" y="-2338.3203" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="14" label="Wiegand, Janet S">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3026.8945" y="916.2558" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="24" label="Yang, Dennis Jason">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-1759.1715" y="2091.5593" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="40" label="Zhao, Qi">
+        <attvalues>
+          <attvalue for="dept" value="other"></attvalue>
+          <attvalue for="papers" value="1"></attvalue>
+          <attvalue for="year" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="Triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4646.2993" y="475.42386" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="83" source="80" target="79">
+        <attvalues>
+          <attvalue for="title_id" value="77"></attvalue>
+          <attvalue for="cit" value="0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="64" target="65">
+        <attvalues>
+          <attvalue for="title_id" value="63"></attvalue>
+          <attvalue for="cit" value="0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="64" target="66">
+        <attvalues>
+          <attvalue for="title_id" value="63"></attvalue>
+          <attvalue for="cit" value="0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="65" target="66">
+        <attvalues>
+          <attvalue for="title_id" value="63"></attvalue>
+          <attvalue for="cit" value="0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="68" target="29" weight="2.0">
+        <attvalues>
+          <attvalue for="title_id" value="28"></attvalue>
+          <attvalue for="cit" value="0"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
