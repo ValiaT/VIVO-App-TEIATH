@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="js/bootstrap.js"></script>
+	<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<title>Short PAth</title> 
+<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+<script type="text/javascript">
+function lookup(inputString,id) {
+	if(inputString.length == 0) {
+	$('#suggestions').hide(); 
+	} else {
+		$.post("/ViVo-Irema/rest/api/getauthorsbyname", {name: inputString}, function(data){
+			if(data.authors.length >0) {
+				 var html = "";
+				 for(var i=0; i<data.authors.length; i++)
+				 { 
+					html += '<a href="#" onclick="document.getElementById(\''+id+'\').value=\''+data.authors[i]+'\'">'+data.authors[i]+'</a><br>';   
+				 }
+				 $('#autoSuggestionsList').html(html); 
+				 $('#suggestions').show();
+				
+			}
+	   });
+	}
+}
+
+function fill(id,thisValue) {
+	$('#'+id).val(thisValue);
+	setTimeout("$('#suggestions').hide();", 200);
+}
+
+
+$( document ).ready(function() {
+   
+   $('#shortsubmit').click(function(){
+	   $('.progress-bar').animate({ width: "50%" },1); //gemise thn 50%
+      $.post("/ViVo-Irema/rest/api/getshortpath", {target : $('#inputString1').val(), source : $('#inputString').val()}, function(data){
+	              $('body').html(data);    
+	              $('.progress-bar').animate({ width: "100%" },1,function(){$('.progress-bar').fade(1500)}); // gemizei olh kai xanetai
+	  });
+   
+   });
+});
+
+</script>
+<style type="text/css">
+body {
+font-family: Helvetica;
+font-size: 13px;
+color: #000;
+}
+h3 {
+margin: 0px;
+padding: 0px;
+}
+.suggestionsBox {
+position: relative;
+left: 260px;
+margin: 0px 0px 0px 0px;
+width: 200px;
+background-color: #ffffff;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border: 2px solid #000;
+color: #fff;
+}
+.suggestionList {
+margin: 0px;
+padding: 0px;
+}
+.suggestionList li {
+
+
+
+
+margin: 0px 0px 3px 0px;
+padding: 3px;
+cursor: pointer;
+}
+.suggestionList li:hover {
+background-color: #DD45CD;
+}
+</style>
+    
+    
+</head>
+<html>
+    <body>
+    <table>
+    <tr><td>
+    <div class="progress progress-striped active">
+  <div class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+</div>
+</td></tr>
+<tr><td>
+<div>
+Source <input type="text" size="30" name="source" value="" id="inputString" onkeyup="lookup(this.value,'inputString');" onblur="fill('inputString');" /><br></br>
+Target <input type="text" size="30" name="target" value="" id="inputString1" onkeyup="lookup(this.value,'inputString1');" onblur="fill('inputString1');" /><br></br>
+</div>
+
+
+<div class="suggestionsBox" id="suggestions" style="display: none;">
+<div class="suggestionList" id="autoSuggestionsList">
+</div>
+</td></tr>
+<tr><td>
+
+     <input type="submit" value="submit" id="shortsubmit" />
+    
+</td></tr> 
+</table>
+</div>
+
+
+
+         
+        
+ 
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    
+<script language="javascript"> 
+ function path(url) {
+window.open(url, "mywindow", "location=1,status=1,scrollbars=1,width=500,height=400");
+}
+ function path1(url) {
+window.open(url, "mywindow", "location=1,status=1,scrollbars=1,width=600,height=190");
+}
+
+</script> 
+<script type="text/javascript" src="js/graph/jquery-1.4.2.min.js"></script>
+
+
+
+    <head>
+        <title>Co-authoring</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/graph/gexfjs.css" />
+        <link rel="stylesheet" type="text/css" href="styles/graph/jquery-ui.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      
+        
+        <script type="text/javascript" src="js/graph/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/graph/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="js/graph/gexfjs.js"></script>
+        <script type="text/javascript" src="js/graph/config_ufl.js"></script>
+    </head>
+    <body>
+        <div id="zonecentre" class="gradient">
+            <canvas id="carte" width="0" height="0"></canvas>
+            <ul id="ctlzoom">
+                <li>
+                    <a href="#" id="zoomPlusButton" title="S'approcher"> </a>
+                </li>
+                <li id="zoomSliderzone">
+                    <div id="zoomSlider"></div>
+                </li>
+                <li>
+                    <a href="#" id="zoomMinusButton" title="S'éloigner"> </a>
+                </li>
+                <li>
+                    <a href="#" id="lensButton"> </a>
+                </li>
+                <li>
+                    <a href="#" id="edgesButton"> </a>
+                </li>
+            </ul>
+        </div>
+        <div id="overviewzone" class="gradient">
+            
+            <canvas id="overview" width="0" height="0"></canvas>
+        </div>
+        <div id="leftcolumn">
+            <div id="unfold">
+                <a href="#" id="aUnfold" class="rightarrow"> </a>
+            </div>
+            <div id="leftcontent"></div>
+        </div>
+        <div id="titlebar">
+            <div id="maintitle">
+                <h1><a href="/" target="_blank" title="Main Page"></a></h1>
+           
+            </div>
+            <form id="recherche">
+                 
+                <input id="searchinput" class="grey" autocomplete="off" />
+                <input id="searchsubmit" type="submit" />
+              
+           
+            </form></div>
+        <ul id="autocomplete">
+            
+        </ul>
+                
+                
+    </body>
+</html>

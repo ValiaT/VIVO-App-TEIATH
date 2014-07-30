@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+  /* sigma.js context : */
+  .sigma-parent {
+    position: relative;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #222;
+	width: 2000px;
+    height: 1300px;
+z-index:10;
+clear:both;
+left:20px;
+margin-top:10px;
+  
+}
+  .sigma-expand {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    top: 0;
+    left: 0;
+z-index:parent;
+  }
+
+	.fb-like {
+	position: relative;
+z-index:100;
+margin-left:20px;
+margin-top:40px;
+
+}
+
+.fb-comments {
+	position: relative;
+z-index:100;
+margin-top:40px;
+
+}
+
+.buttons-container{
+    padding-bottom: 8px;
+    padding-top: 12px;
+  }
+
+.header {
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #aaaaaa;
+	margin-left: 20px;
+	
+}
+
+#subheader {
+
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: light;
+	color: #ffffff;
+	padding-left: 20px;
+padding-top:100px;
+	width:300px;
+	opacity:0.5;
+}
+span12 buttons-container{
+
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+ font-weight: light;
+	color: #fffeee;
+	padding-right: 40px;
+
+	opacity:0.8;
+}
+#metric{
+
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+ font-weight: light;
+	color: #fffeee;
+	padding-left: 20px;
+padding-top:60px;
+	width:300px;
+	opacity:0.8;
+}
+ a {
+	color: #bbbbbb
+
+}
+
+
+.footer {
+	
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #aaaaaa;
+	margin-left:20px;
+	clear:both;	
+}
+
+.help {
+
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #aaaaaa;
+}
+
+
+
+#navigation {
+	display:block;
+	float:left;
+	font:14px/14px Helvetica, Arial, sans-serif;
+	margin-left:10px;
+	color:#aaaaaa;
+}
+.menu ul {
+	z-index:99;
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:1;
+	margin-right:10px;
+}
+.menu ul a {
+/*	position:relative; */
+	color:#ccc;
+	display:block;
+	z-index:100;
+	padding:5px 10px;
+	line-height:18px;
+	text-decoration:none;
+}
+.menu ul a:hover, .menu ul li.highlight a, .menu ul li.current_page_item, .menu ul li.current_page_item a, .menu ul li.current_page_parent, .menu ul li.current-menu-item {
+	background:#777;
+	color:#fff;
+}
+.menu ul li {
+	float:left;
+	width: auto;
+	margin-right:10px;
+}
+.menu ul li a.sf-with-ul {
+	padding-right:25px;
+}
+
+
+/* Drop-down menus */
+.menu ul li ul {
+	background: #FFF;
+	position: absolute;
+	left: -999em;
+	width: 180px;
+	border: 1px solid #777;
+	border-width:1px 1px 0;
+	z-index:999;
+	margin-left:0;
+}
+.menu ul li ul li {
+	background:#eee;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ddd;
+	margin-left:0px;
+}
+.menu ul li ul li a {
+	width:160px;
+	color:#777;
+	font-size:0.9em;
+	line-height:18px;
+}
+.menu ul li ul li a.sf-with-ul {
+	padding:5px 10px;
+}
+.menu ul li ul li a:hover {
+	background:#c6c6c6;
+	color:#111;
+}
+.menu ul li ul ul {
+	margin: -30px 0 0 180px;
+}
+.menu ul li:hover, .menu ul li.hover {
+	position:static;
+	background:#777;
+}
+.menu ul ul li:hover, .menu ul ul li.hover {
+	background:#eee;
+}
+.menu ul li:hover ul, .menu ul li.sfhover ul, .menu ul li li:hover ul, .menu ul li li.sfhover ul, .menu ul li li li:hover ul, .menu ul li li li.sfhover ul, .menu ul li li li li:hover ul, .menu ul li li li li.sfhover ul {
+	left:auto;
+}
+.menu ul .sf-sub-indicator {
+	background:	url(images/arrow-down.png) no-repeat;
+	position:absolute;
+	display:block;
+	right:0.4em;
+	top:0.8em;
+	width:10px;
+	height:10px;
+	text-indent:-999em;
+	overflow:hidden;
+}
+.menu li ul .sf-sub-indicator {
+	background:url(images/arrow-right.png) no-repeat;
+}
+
+
+/* CSS3 Menu Effects */
+
+.menu ul a, .menu ul li.current_page_item, .menu ul li.current_page_parent, .menu ul li:hover, .menu ul li.hover, .menu ul li.current-menu-item {
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+.menu ul li ul li a {
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+
+
+
